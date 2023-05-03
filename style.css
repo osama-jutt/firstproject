@@ -1,0 +1,232 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.ul{
+    margin: 0px;
+    padding: 0px; 
+} 
+.my-item{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color:blue;
+}
+.item li{
+    list-style: none;
+    height: 50px;
+    width: 160px;
+    background-color:blue;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+.item li :hover{
+    background-color:red;
+}
+.item li a:hover{
+    color: aqua;
+}
+.item li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    width: 50px;
+}
+.logo-li :hover{
+    color:black;
+}
+.item ul li {
+    margin: 0px;
+}
+.item ul{
+    display: none;
+}
+.item li:hover ul{
+    display: block;
+
+}
+/* banner */
+#banner{
+    width: 100%;
+
+}
+#banner img{
+    margin-top: 60px;
+    width: 105%;
+}
+/* why choose us */
+.why-choose-us{
+    width: 100%;
+    text-align: center;
+}
+
+.why-choose-us h1{
+    margin: 0  auto;
+    width: 300px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+
+}
+.div-section1{
+    width: 23%;
+    height: auto;
+    margin: 10px; 
+    float: left;                
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.icon:hover{
+    font-size: 40px;
+}
+/* section2 */
+.section2{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+.section2 h2{
+    margin: 0  auto;
+    width: 400px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+
+}
+.div-section2{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    float: left;
+           
+}
+.div-section2{
+    float: left;
+}
+.div-section2 img{
+    width: 100%
+}
+/* FOOTER */
+.footer{
+    position: absolute;
+    width: 100%;
+    height: none;
+    background-color: black;
+}
+.footer-div{
+    width: 23%;
+    height: auto;
+    margin: 10px; 
+    float: left;   
+}
+.footer-div h1{
+    color: red;
+}
+.footer-div p{
+    color: white;
+}
+.footer-div button{
+    background-color: red;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+.footer-div ul li{
+    list-style: none;
+}
+.footer-div ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-link{
+    color: white;
+}
+.under-footer{
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.footer-1{
+    width: 50%;
+    float: left;
+}
+.footer-1 p{
+    color: black;
+}
+/* teacher */
+.section3{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+.section3 h2{
+    margin: 0  auto;
+    width: 400px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+
+.div-section3{
+    width: 18%;
+    height: auto;
+    margin: 5px;
+    float: left;
+           
+}
+.div-section3{
+    float: left;
+}
+.div-section3 img{
+    width: 100%
+}
+.div-section3 img{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    line-height: 200px;
+    font-size: 50px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+    text-align: center;
+    
+}
+.div-section3 h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.cor{
+    background-color: brown;
+    font-size: 25px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin: 30px;
+    color: white;
+}
+.div-section3 img{
+    display: block;;
+}
